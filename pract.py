@@ -19,6 +19,5 @@ else:
 
         l, r = (m + 1, r) if a[m] < t else (l, m - 1)
         s += 1
-
     else:
         print(f"\nЧисло {t} не знайдено у списку.")
