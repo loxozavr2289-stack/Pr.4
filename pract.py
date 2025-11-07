@@ -1,4 +1,5 @@
-a = sorted([int(x) for x in input("Введіть числа через пробіл (від 1 до 1000): ").split() if x.lstrip('-').isdigit() and 1 <= abs(int(x)) <= 1000])
+a = sorted([int(x) for x in input("Введіть числа через пробіл (від 1 до 1000): ")
+            .split() if x.lstrip('-').isdigit() and 1 <= abs(int(x)) <= 1000])
 if not a:
     print("Некоректні або порожні дані.")
 else:
